@@ -10,12 +10,13 @@
 </head>
 
 <body>
-    <header class="navbar pt-2 pb-0 px-5" style="background-color: #ffffff">
+    <header class="navbar row pb-0" style="background-color: #ffffff">
     
-        <h2 class="text-white text-center py-4 px-4 mb-0 mt-2 ml-5" style="background-color: #4aaaa5">
+        <h2 class="text-white text-center py-4 col-md-3 mb-0 offset-lg-2 offset-md-2 font-weight-bold" 
+        style="background-color: #4aaaa5">
         Devin Alexander</h2>
-
-        <div class="pt-3 pb-2 mr-5">
+    
+        <div class="col-md-4 text-center offset-lg-3 mb-3 mt-3">
         <a class="px-3 linkborder" href="index.html">About</a>
         <a class="px-3 linkborder" href="portfolio.html">Portfolio</a> 
         <a class="px-3" href="contact.html">Contact</a> 
@@ -24,10 +25,23 @@
 
     <div class="container" style="background-color: #ffffff">
         
-    <div class="row px-4">
-        <h2 class="pt-4 pb-3" id="topic" style="color: #4aaaa5">Contact</h2>
-    
+        <div class="row px-4">
+            <h3 class="pt-4 pb-3 font-weight-bold" id="topic" style="color: #4aaaa5">Contact</h3>
+        </div>
+
+        <h5 class="row my-2 pl-3">Name</h5>
+        <textarea class= "mb-2 col-12 pl-1 border border-secondary" placeholder="John Smith" cols="130"></textarea>
+
+        <h5 class="row my-2 pl-3">Email</h5>
+        <textarea class= "mb-2 col-12 pl-1 border border-secondary" placeholder="Example@gmail.com" cols="130"></textarea>
+
+        <h5 class="row my-2 pl-3">Message</h5>
+        <textarea class="border col-12 border-secondary" cols="130" rows="15"></textarea>
+
+        <button class="text-white text-center mb-4" style="background-color: #4aaaa5">Submit</button>
+
     </div>
+    
 </body>
 
 <footer class="row pt-4" id="" style= "background-color: #666666;">
