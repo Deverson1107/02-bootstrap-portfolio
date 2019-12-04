@@ -1,0 +1,91 @@
+body {
+    background-image: url("../images/prism.png");
+}
+
+a:link, a:visited  {
+    color: grey;
+    text-decoration: none;
+}
+
+.pagelink:hover {
+    color: floralwhite;
+}
+
+.topbar {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: floralwhite;
+    background-color: black;
+    font-size: 18px;
+}
+
+.titlename {
+    font-size: 40px;
+}
+
+.titlejob {
+    font-size: 18px;
+}
+
+.pagetitle {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: floralwhite; 
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom:10px;
+    letter-spacing: 3px;
+    border: 1px solid floralwhite;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.linkicon {
+    height: 30px;
+    width: 30px;
+}
+
+.portfolioimg {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px; 
+}
+
+.cont {
+    position: relative;
+    width: 50%;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    height: 200px;
+    width: 200px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+  }
+  
+  .cont:hover .overlay {
+    opacity: 1;
+  }
+  
+  .titleproject {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
